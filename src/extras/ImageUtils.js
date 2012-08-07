@@ -165,6 +165,7 @@ THREE.ImageUtils = {
 
 		}
 
+
 		var texture = new THREE.DataTexture( data, width, height, THREE.RGBFormat );
 		texture.needsUpdate = true;
 

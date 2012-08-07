@@ -1,3 +1,7 @@
 #!/bin/sh
 
-python build.py --common --minified
+cd utils
+python build.py --webgl
+cd ..
+cp build/custom/ThreeWebGL.js ../brainflight/public/javascripts/libs/threejs/Three.js
+

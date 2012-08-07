@@ -523,7 +523,7 @@ def main(argv=None):
 	['ThreeCanvas', 'includes_canvas', '', CANVAS_FILES, args.canvas],
 	['ThreeDOM', 'includes_dom', '', DOM_FILES, args.dom],
 	['ThreeSVG', 'includes_svg', '', SVG_FILES, args.svg],
-	['ThreeWebGL', 'includes_webgl', '', WEBGL_FILES, args.webgl],
+	['ThreeWebGL', 'includes_webgl', '', WEBGL_FILES + EXTRAS_FILES, args.webgl],
 	['ThreeExtras', 'includes_extras', 'externs_extras', EXTRAS_FILES, args.extras]
 	]
 
